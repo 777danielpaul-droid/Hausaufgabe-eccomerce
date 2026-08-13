@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ecommerce-react
+    runtime: node
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    branch: main
