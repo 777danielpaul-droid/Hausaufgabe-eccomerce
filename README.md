@@ -1,6 +1,16 @@
 # 🛒 E-Commerce React App
 
-Eine moderne E-Commerce Landing Page mit React 19, TypeScript, TailwindCSS v4 + DaisyUI v5 und React Router 8. Baut auf dem Vanilla-JS-Prototype auf und erweitert es mit professioneller State-Verwaltung.
+![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-6.3.4-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+![React Router 7](https://img.shields.io/badge/React%20Router-v7.18%207-CA4245?logo=reactrouter&logoColor=white&style=for-the-badge)
+![TailwindCSS v4](https://img.shields.io/badge/TailwindCSS-v4-065D44?logo=tailwindcss&logoColor=white&style=for-the-badge)
+![DaisyUI v5](https://img.shields.io/badge/DaisyUI-v5-5A00E0?logo=daisyui&logoColor=white&style=for-the-badge)
+![Render](https://img.shields.io/badge/Deployed%20on-Render-000000?logo=render&logoColor=white&style=for-the-badge)
+
+> Eine moderne E-Commerce Landing Page mit React 19, TypeScript, TailwindCSS v4 + DaisyUI v5 und React Router 7. Baut auf dem Vanilla-JS-Prototype auf und erweitert es mit professioneller State-Verwaltung.
+
+---
 
 ## 🚀 Features
 
@@ -11,18 +21,22 @@ Eine moderne E-Commerce Landing Page mit React 19, TypeScript, TailwindCSS v4 + 
 - **Live-Warenkorb-Anzeige** (Anzahl + Summe) in der Navbar
 - **Responsive Design** (Mobile First)
 
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technologie |
 |-------|-------------|
 | **Framework** | React 19 + Vite |
 | **Sprache** | TypeScript 5 |
-| **Routing** | React Router 8 |
+| **Routing** | React Router 7 |
 | **Styling** | TailwindCSS v4 + DaisyUI v5 |
 | **State** | React Context API |
 | **Persistenz** | localStorage |
 | **API** | fetch() to FakeStoreAPI |
 | **Deployment** | Render.com |
+
+---
 
 ## 📁 Projektstruktur
 
@@ -48,33 +62,30 @@ src/
 └── style.css            # TailwindCSS Base
 ```
 
+---
+
 ## 🔧 Entwicklung
 
 ```bash
-# Repository clonen & Dependencies
-git clone git@github.com:777danielpaul-droid/Hausaufgabe-eccomerce.git
-cd Hausaufgabe-eccomerce
 npm install
-
-# Dev Server (Port 8100)
-npm run dev
-
-# Build
-npm run build
+npm run dev        # Dev Server auf http://localhost:8100
+npm run build      # Produktiv-Build
 ```
+
+---
 
 ## 🏗️ Deployment
 
-Deployt auf [Render.com](https://render.com) via `render.yaml`:
+Deployt auf **Render.com** via `render.yaml`:
 
-```bash
-# Build-Command: npm install && npm run build
-# Publish Directory: dist
-```
+- **Build**: `npm install && npm run build`
+- **Publish**: `dist/`
+
+---
 
 ## 💡 Hintergrund
 
-Entstanden im Rahmen des 🧩 Multi-module Exercises — migriert von Vanilla-JS/ES-Modulen zu React mit TypeScript. Behält die ursprüngliche API-Anbindung und Warenkorb-Logik bei, aber erweitert sie um:
+Entstanden im Rahmen des 🧩 **Multi-module Exercises** — migriert von Vanilla-JS/ES-Modulen zu React mit TypeScript. Behält die ursprüngliche API-Anbindung und Warenkorb-Logik bei, aber erweitert sie um:
 
 - React Context statt localStorage-Direktzugriff
 - Typed Contracts statt plain JS
